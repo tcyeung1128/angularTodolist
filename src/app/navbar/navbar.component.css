@@ -1,12 +1,8 @@
 .navbar {
-  background-color: rgb(227, 140, 41);
+  background-color: rgb(255, 183, 101);
   width: 100vw;
-  height: 75px;
-  display: block;
+  height: 60px;
   top:0px;
-}
-
-.navbar>div{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,9 +10,9 @@
 }
 
 .navbarContainer {
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 .navbarButtonContainer {
-  padding-right: 20px;
+  padding-right: 50px;
 }

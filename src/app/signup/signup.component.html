@@ -1,7 +1,7 @@
 <div class="loginBigBackground">
   <div class="loginBackground">
     <div>
-      <h1>登入</h1>
+      <h1>建立帳號</h1>
       <h3>帳號</h3>
       <input
         type="text"
@@ -16,9 +16,12 @@
         [(ngModel)]="password"
         (input)="passwordMethod()"
       />
-      <div>
+      <div class="notifyBackground">
+        <h4>{{ notify }}</h4>
+      </div>
+      <div class="buttonBackground">
         <button (click)="submit()">提交</button>
-        <button>建立帳號</button>
+        <button>返回</button>
       </div>
     </div>
   </div>
