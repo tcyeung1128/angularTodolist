@@ -1,0 +1,50 @@
+.loginBigBackground{
+  display: block;
+  width: 100vw;
+
+}
+
+.loginBackground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100vw;
+}
+
+.loginBackground > div {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginBackground > div > h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.loginBackground > div > h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.loginBackground > div > input {
+  width: 200px;
+}
+
+.loginBackground > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.loginBackground > div > div > button {
+  width: 200px;
+  /* padding: 10px; */
+  margin: 20px;
+  text-align: center;
+}

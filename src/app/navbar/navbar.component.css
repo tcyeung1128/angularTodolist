@@ -1,0 +1,22 @@
+.navbar {
+  background-color: rgb(227, 140, 41);
+  width: 100vw;
+  height: 75px;
+  display: block;
+  top:0px;
+}
+
+.navbar>div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap:nowrap;
+}
+
+.navbarContainer {
+  padding-left: 20px;
+}
+
+.navbarButtonContainer {
+  padding-right: 20px;
+}
